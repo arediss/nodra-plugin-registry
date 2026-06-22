@@ -1,0 +1,35 @@
+# Regenerate plugins.json from repos.json and open a PR when it changes.
+# Runs daily + on push to repos.json. No plugin code reaches users without a
+# human merging the resulting PR.
+name: update-registry
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  push:
+    paths: ['repos.json']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - name: Build plugins.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/build-index.mjs
+      - name: Open PR if changed
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: 'chore: refresh plugins.json'
+          title: 'Refresh plugins.json'
+          body: 'Automated registry index update. Review the diff before merging.'
+          branch: registry/auto-update
+          add-paths: plugins.json
