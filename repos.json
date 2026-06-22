@@ -1,4 +1,12 @@
 {
   "version": 1,
-  "repos": []
+  "repos": [
+    { "repo": "arediss/nodra-plugin-aws-icons", "approved_permissions": ["blocks"] },
+    { "repo": "arediss/nodra-plugin-starter-icons", "approved_permissions": ["blocks"] },
+    { "repo": "arediss/nodra-plugin-terraform", "approved_permissions": ["importers"] },
+    { "repo": "arediss/nodra-plugin-drawio", "approved_permissions": ["importers", "exporters"] },
+    { "repo": "arediss/nodra-plugin-mermaid", "approved_permissions": ["importers", "exporters", "panels", "flow-read", "flow-write"] },
+    { "repo": "arediss/nodra-plugin-connexions", "approved_permissions": ["panels", "flow-read", "flow-write"] },
+    { "repo": "arediss/nodra-plugin-hello", "approved_permissions": ["blocks", "node-types", "panels", "flow-read"] }
+  ]
 }
