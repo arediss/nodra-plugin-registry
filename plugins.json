@@ -61,7 +61,7 @@
     {
       "id": "com.nodra.drawio",
       "name": "draw.io",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "api_version": "1.0.0",
       "description": "Import et export draw.io (mxGraph XML).",
       "author": "Nodra",
@@ -76,8 +76,8 @@
         "import",
         "export"
       ],
-      "download_url": "https://github.com/arediss/nodra-plugin-drawio/releases/download/v1.0.0/plugin.zip",
-      "sha256": "ae2c4db44b504ea3bb1a4d53b0536f42e8557478f4bc77fed43abd65c9f063c5"
+      "download_url": "https://github.com/arediss/nodra-plugin-drawio/releases/download/v1.1.0/plugin.zip",
+      "sha256": "21e69683b5ab076c9bb7592a5d8c004566479e6222b5a0917c04fa636236e519"
     },
     {
       "id": "com.nodra.mermaid",
