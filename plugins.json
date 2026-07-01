@@ -17,7 +17,7 @@
         "cloud",
         "icons"
       ],
-      "download_url": "https://github.com/arediss/nodra-plugin-aws-icons/releases/download/v1.0.0/plugin.zip",
+      "download_url": "https://github.com/Arediss/nodra-plugin-aws-icons/releases/download/v1.0.0/plugin.zip",
       "sha256": "3b508fc8eaf605ba5be6f3799f1181a363052df4e0847fd7c7e37bba29a3a0bb"
     },
     {
@@ -36,7 +36,7 @@
         "starter",
         "iconify"
       ],
-      "download_url": "https://github.com/arediss/nodra-plugin-starter-icons/releases/download/v1.0.0/plugin.zip",
+      "download_url": "https://github.com/Arediss/nodra-plugin-starter-icons/releases/download/v1.0.0/plugin.zip",
       "sha256": "4b878436f98822b67736aea8d5c64481ca285de5327075bb5bb4889dc509fd0d"
     },
     {
@@ -55,7 +55,7 @@
         "iac",
         "import"
       ],
-      "download_url": "https://github.com/arediss/nodra-plugin-terraform/releases/download/v1.0.0/plugin.zip",
+      "download_url": "https://github.com/Arediss/nodra-plugin-terraform/releases/download/v1.0.0/plugin.zip",
       "sha256": "dba1c5d4d67b9a1feda47eb440c03db0b24fdf06096c7b2719d280018d72dbe2"
     },
     {
@@ -76,7 +76,7 @@
         "import",
         "export"
       ],
-      "download_url": "https://github.com/arediss/nodra-plugin-drawio/releases/download/v1.1.0/plugin.zip",
+      "download_url": "https://github.com/Arediss/nodra-plugin-drawio/releases/download/v1.1.0/plugin.zip",
       "sha256": "21e69683b5ab076c9bb7592a5d8c004566479e6222b5a0917c04fa636236e519"
     },
     {
@@ -100,7 +100,7 @@
         "export",
         "panel"
       ],
-      "download_url": "https://github.com/arediss/nodra-plugin-mermaid/releases/download/v1.0.0/plugin.zip",
+      "download_url": "https://github.com/Arediss/nodra-plugin-mermaid/releases/download/v1.0.0/plugin.zip",
       "sha256": "19a243509e0ab07690134dafaeaab35f632980e6d80720f0e99410911eadb390"
     },
     {
@@ -121,7 +121,7 @@
         "links",
         "panel"
       ],
-      "download_url": "https://github.com/arediss/nodra-plugin-connexions/releases/download/v1.0.0/plugin.zip",
+      "download_url": "https://github.com/Arediss/nodra-plugin-connexions/releases/download/v1.0.0/plugin.zip",
       "sha256": "f2e444b2578f54ea53eced7358ec0e46bf8357f378d2dfa521ae3d11d9d5f6f2"
     },
     {
@@ -143,7 +143,7 @@
         "reference",
         "self-contained"
       ],
-      "download_url": "https://github.com/arediss/nodra-plugin-hello/releases/download/v1.0.0/plugin.zip",
+      "download_url": "https://github.com/Arediss/nodra-plugin-hello/releases/download/v1.0.0/plugin.zip",
       "sha256": "9cdccdfd3d39a0afdc9a04eac4a60665028d4d5fb0083493bf4d1b5e97c064b5"
     }
   ]
